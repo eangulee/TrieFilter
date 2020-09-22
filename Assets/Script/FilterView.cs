@@ -10,7 +10,6 @@ public class FilterView : MonoBehaviour
     private List<string> words;
     private Trie trie;
 
-    // Start is called before the first frame update
     void Start()
     {
         trie = new Trie();
